@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_Activity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv7"
+        android:text="Enter Phone Number"
+        android:textSize="25dp"
+        android:textColor="#FFF"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        />
+
+    <EditText
+        android:layout_width="253dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/edittext"
+        android:gravity="center"
+        android:id="@+id/edittext"
+        android:hint="Enter Phone Number"
+        android:textColor="#000" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="Continue"
+        android:layout_marginTop="490dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:background="@drawable/button"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv8"
+        android:text="Already have an Account "
+        android:layout_marginTop="650dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv9"
+        android:text="Login"
+        android:layout_marginTop="690dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="#FFF"/>
+
+
+
+
+
+
+
+</RelativeLayout>
